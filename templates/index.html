@@ -2,28 +2,21 @@
 <html>
     <head>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link href="/static/style.css" rel="stylesheet" type="text/css"/>
     <h1>SPOTIFY DROP</h1>
     </head>
     
     <body>
         <div class=center>
+            <div class="text">
+                Do you spend hours making a playlist, just to have your listeners dissapointed? Suffer no longer.
+                We at Spotify DROP receive a playlist, keep only the best for your party or dinner, and customize the bass, flows, and jams to please your auditory nerves
+            </div>
             <form method="POST">
-            <div class = "text">
-            <p> Do you spend hours making a playlist, just to have your listeners dissapointed? Suffer no longer. </p>
-            <p> We at Spotify DROP receive a playlist, keep only the best for your party or dinner, and customize the bass, flows, and jams to please your auditory nerves </p>
-            </div>
-            <p>
-            <div class = "buttonHolder">
-            <label>Username: </label>
-            <input class="authentication" type="text"></p>
-            <p>
-            <label>Password:  </label>
-            <input class="authentication" type="password"></p>
-    
-               <button type="button" onclick = "myFunction()"> Login</button>
-            </div>
-        </form>
+                <label>Username: </label>
+                <input class="authentication" type="text" name="usr">
+                <button type="button" onclick = "myFunction()" name="usr"> Login</button>
+            </form>
         </div>
     </body>
 

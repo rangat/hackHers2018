@@ -16,7 +16,7 @@ def home():
     elif request.method=='POST':
         usr = request.form['usr']
         print(usr)
-        loginUsr(usr)
+        loginUsr('1287724819')
         return redirect(url_for('play'))
 
 @app.route('/playlists', methods=['GET', 'POST'])
