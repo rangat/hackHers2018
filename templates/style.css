@@ -1,0 +1,68 @@
+
+h1
+{
+	color: rgb(132, 189, 0);
+	background-color: black;
+	font-size: 380%;
+	font-weight: 100;
+	font-style: normal;
+	font-family: 'Montserrat';
+}
+
+body
+{
+	align-content: center;
+	background-color: white;
+}
+
+button
+{
+	font-family: 'Montserrat';
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	align-content: center;
+	background-color: rgb(236, 235, 232);
+	width: 60%;
+}
+.center 
+{
+	margin: auto;
+	width: 65%;
+}
+.buttonHolder
+{
+	width: 50%;
+	margin: auto;
+}
+
+label 
+{
+	font-family: 'Montserrat';	
+	color: black;
+}
+.text 
+{
+	align-content: center;
+	font-family: 'Montserrat';
+	border: 5px solid rgb(132, 189, 0);
+	border-right-color: white;
+	border-top-color: white;
+	border-bottom-color: black;
+	color: black;
+	font-size: 20px;
+	font-weight: 50px;
+	width: 600px;
+  	margin-left: 40px;
+    padding: 15px;
+    margin: 25px;
+}
+
+.authentication 
+{
+	align-content: center;
+	color: black;
+	margin: 10px;
+	padding-left: 5	px;
+}
+
