@@ -35,17 +35,8 @@ def loginUsr(usr):
 
     if token:
         sp = spotipy.Spotify(auth=token)
-        playlists = sp.user_playlists(username)
-        for playlist in playlists['items']:
-            if playlist['owner']['id'] == username:
-                print(playlist['name'])
-                print('  total tracks', playlist['tracks']['total'])
-                results = sp.user_playlist(username, playlist['id'], fields="tracks,next")
-                tracks = results['tracks']
-                show_tracks(tracks)
-                while tracks['next']:
-                    tracks = sp.next(tracks)
-                    show_tracks(tracks)
+        playlists = sp.current_user_playlists(limit=10, offset=0)
+        print(playlists)
     else:
         print("Can't get token for", username)
 
